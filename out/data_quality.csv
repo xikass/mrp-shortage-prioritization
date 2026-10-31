@@ -1,0 +1,7 @@
+issue_type,table_name,detected_count,action_taken
+duplicate_inventory_lots,inventory_lots,3,Deduplicated by lot_id keeping primary entry
+duplicate_purchase_orders,purchase_orders,2,Deduplicated by po_id keeping primary entry
+null_quantity_lots,inventory_lots,4,Excluded from available stock (zero-imputed)
+negative_quantity_lots,inventory_lots,5,Quarantined and excluded pending cycle count reconciliation
+expired_released_lots,inventory_lots,8,Reclassified status to EXPIRED and excluded from available supply
+orphan_bom_components,boms,3,Pruned unmapped BOM references to prevent runtime MRP failure

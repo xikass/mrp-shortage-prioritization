@@ -1,0 +1,5 @@
+scenario_name,weight_factor,urgency_horizon_days,top20_overlap_pct,spearman_rho
+weights_plus_20pct,1.2,30.0,100.0,0.9982
+weights_minus_20pct,0.8,30.0,95.0,0.9981
+horizon_15_days,1.0,15.0,100.0,0.9987
+horizon_45_days,1.0,45.0,100.0,0.9993

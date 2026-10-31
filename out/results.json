@@ -1,0 +1,117 @@
+{
+  "total_shortage_value": 1608581.27,
+  "short_components_count": 24,
+  "top_20pct_components_count": 5,
+  "top_20pct_share_of_value": 87.95,
+  "worst_supplier": {
+    "supplier_name": "Apex BioChem",
+    "shortage_value": 873713.3,
+    "share_of_total_pct": 54.32
+  },
+  "median_days_of_cover": 21.8,
+  "sri_top10": [
+    {
+      "component_id": "CMP-109",
+      "component_name": "Active Ingredient Grade-109 (API)",
+      "supplier": "Apex BioChem",
+      "sri": 1854765.05,
+      "shortage_value": 603528.08
+    },
+    {
+      "component_id": "CMP-007",
+      "component_name": "Active Ingredient Grade-07 (API)",
+      "supplier": "Aegis Polymers",
+      "sri": 381054.55,
+      "shortage_value": 381054.55
+    },
+    {
+      "component_id": "CMP-025",
+      "component_name": "Active Ingredient Grade-25 (API)",
+      "supplier": "Apex BioChem",
+      "sri": 301933.77,
+      "shortage_value": 270185.22
+    },
+    {
+      "component_id": "CMP-115",
+      "component_name": "Active Ingredient Grade-115 (API)",
+      "supplier": "Aegis Polymers",
+      "sri": 242695.05,
+      "shortage_value": 123802.11
+    },
+    {
+      "component_id": "CMP-062",
+      "component_name": "Functional Excipient Grade-62 (EXC)",
+      "supplier": "Nordic Excipients",
+      "sri": 108314.16,
+      "shortage_value": 36104.72
+    },
+    {
+      "component_id": "CMP-068",
+      "component_name": "Functional Excipient Grade-68 (EXC)",
+      "supplier": "Crestview Labs",
+      "sri": 60297.39,
+      "shortage_value": 21631.11
+    },
+    {
+      "component_id": "CMP-032",
+      "component_name": "Functional Excipient Grade-32 (EXC)",
+      "supplier": "Crestview Labs",
+      "sri": 55499.42,
+      "shortage_value": 18499.81
+    },
+    {
+      "component_id": "CMP-094",
+      "component_name": "Preservative / Buffer Grade-94 (PRV)",
+      "supplier": "Kestrel Supply",
+      "sri": 52286.96,
+      "shortage_value": 26143.48
+    },
+    {
+      "component_id": "CMP-044",
+      "component_name": "Functional Excipient Grade-44 (EXC)",
+      "supplier": "Crestview Labs",
+      "sri": 49597.64,
+      "shortage_value": 35821.97
+    },
+    {
+      "component_id": "CMP-103",
+      "component_name": "Active Ingredient Grade-103 (API)",
+      "supplier": "Aegis Polymers",
+      "sri": 49206.42,
+      "shortage_value": 24603.21
+    }
+  ],
+  "sensitivity_metrics": {
+    "summary": "SRI ranking is stable: 95.0% to 100.0% top-20 overlap and Spearman rho >= 0.9981 under +/-20% weight changes and 15/45-day urgency horizon shifts.",
+    "scenarios": [
+      {
+        "scenario": "weights_plus_20pct",
+        "weight_factor": 1.2,
+        "urgency_horizon_days": 30.0,
+        "top20_overlap_pct": 100.0,
+        "spearman_rho": 0.9982
+      },
+      {
+        "scenario": "weights_minus_20pct",
+        "weight_factor": 0.8,
+        "urgency_horizon_days": 30.0,
+        "top20_overlap_pct": 95.0,
+        "spearman_rho": 0.9981
+      },
+      {
+        "scenario": "horizon_15_days",
+        "weight_factor": 1.0,
+        "urgency_horizon_days": 15.0,
+        "top20_overlap_pct": 100.0,
+        "spearman_rho": 0.9987
+      },
+      {
+        "scenario": "horizon_45_days",
+        "weight_factor": 1.0,
+        "urgency_horizon_days": 45.0,
+        "top20_overlap_pct": 100.0,
+        "spearman_rho": 0.9993
+      }
+    ]
+  }
+}

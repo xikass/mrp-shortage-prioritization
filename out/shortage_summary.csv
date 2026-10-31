@@ -1,0 +1,25 @@
+component_id,component_name,supplier,lead_time_days,unit_cost,total_shortage_qty,total_shortage_value,share_pct,cum_shortage_value,cum_share_pct,pareto_rank,pareto_class,gross_qty,total_sri,affected_orders,affected_products,on_hand_qty,open_po_qty,days_of_cover
+CMP-109,Active Ingredient Grade-109 (API),Apex BioChem,7,324.27,1861.19,603528.08,37.52,603528.08,37.52,1,A,1986.55,1854765.05,5,1,125.36,0.0,5.7
+CMP-007,Active Ingredient Grade-07 (API),Aegis Polymers,60,405.77,939.09,381054.55,23.69,984582.63,61.21,2,A,1237.4099999999999,381054.55,4,2,298.32,935.94,21.7
+CMP-025,Active Ingredient Grade-25 (API),Apex BioChem,14,232.08,1164.19,270185.22,16.8,1254767.85,78.0,3,A,1503.28,301933.77,4,2,339.09,0.0,20.3
+CMP-115,Active Ingredient Grade-115 (API),Aegis Polymers,45,114.84,1078.04,123802.11,7.7,1378569.96,85.7,4,B,1122.78,242695.05,7,3,44.74,0.0,3.6
+CMP-062,Functional Excipient Grade-62 (EXC),Nordic Excipients,60,39.06,924.34,36104.72,2.24,1414674.68,87.95,5,B,924.3399999999999,108314.16,2,1,0.0,0.0,0.0
+CMP-068,Functional Excipient Grade-68 (EXC),Crestview Labs,90,27.59,784.02,21631.11,1.34,1549068.0,96.3,10,C,784.02,60297.39,3,2,0.0,0.0,0.0
+CMP-032,Functional Excipient Grade-32 (EXC),Crestview Labs,30,39.42,469.3,18499.81,1.15,1567567.81,97.45,11,C,972.4200000000001,55499.42,2,1,503.12,982.12,46.6
+CMP-094,Preservative / Buffer Grade-94 (PRV),Kestrel Supply,60,35.02,746.53,26143.48,1.63,1502833.68,93.43,8,B,844.72,52286.96,2,1,98.19,0.0,10.5
+CMP-044,Functional Excipient Grade-44 (EXC),Crestview Labs,90,33.6,1066.13,35821.97,2.23,1450496.65,90.17,6,B,1503.92,49597.64,7,3,437.79,859.6,26.2
+CMP-103,Active Ingredient Grade-103 (API),Aegis Polymers,21,242.42,101.49,24603.21,1.53,1527436.89,94.96,9,B,134.16,49206.42,2,1,32.67,0.0,21.9
+CMP-040,Preservative / Buffer Grade-40 (PRV),Vitasource Ingredients,90,56.42,464.26,26193.55,1.63,1476690.2,91.8,7,B,464.26,44826.65,6,3,0.0,973.6,0.0
+CMP-080,Functional Excipient Grade-80 (EXC),Crestview Labs,75,9.9,1552.71,15371.83,0.96,1582939.64,98.41,12,C,2422.02,42177.87,5,3,869.3100000000001,352.14,32.3
+CMP-117,Solvent / Vehicle Grade-117 (SOL),Helios Fine Chemicals,30,5.6,1462.43,8189.61,0.51,1591129.25,98.92,13,C,1883.5,21141.140000000003,7,2,421.07,0.0,20.1
+CMP-096,Secondary Packaging Grade-96 (SEC),Valence Reagents,30,3.32,1604.53,5327.04,0.33,1596456.29,99.25,14,C,2291.08,15024.3,5,2,686.55,0.0,27.0
+CMP-072,Secondary Packaging Grade-72 (SEC),Valence Reagents,45,4.1,491.66,2015.81,0.13,1603244.56,99.67,17,C,729.54,6649.7,3,1,237.88,151.29,29.3
+CMP-033,Solvent / Vehicle Grade-33 (SOL),Helios Fine Chemicals,21,33.58,75.02,2519.17,0.16,1598975.46,99.4,15,C,75.02,5038.34,1,1,0.0,1309.48,0.0
+CMP-034,Preservative / Buffer Grade-34 (PRV),Kestrel Supply,7,27.06,83.27,2253.29,0.14,1601228.75,99.54,16,C,494.61,4506.57,1,1,307.93,103.41,56.0
+CMP-098,Functional Excipient Grade-98 (EXC),Nordic Excipients,45,21.0,61.56,1292.76,0.08,1604537.32,99.75,18,C,61.56,2965.01,2,1,0.0,0.0,0.0
+CMP-078,Secondary Packaging Grade-78 (SEC),Zenith Chemical,21,5.19,218.95,1136.35,0.07,1605673.67,99.82,19,C,354.67,2272.7,1,1,135.72,0.0,34.4
+CMP-113,Primary Packaging Grade-113 (PKG),Boreal Botanicals,90,2.02,516.46,1043.25,0.06,1606716.92,99.88,20,C,516.46,2064.08,3,2,0.0,0.0,0.0
+CMP-107,Primary Packaging Grade-107 (PKG),Oceanic Extracts,14,2.0,448.67,897.34,0.06,1607614.26,99.94,21,C,850.04,1851.04,3,1,401.37,0.0,42.5
+CMP-119,Primary Packaging Grade-119 (PKG),Oceanic Extracts,60,4.14,108.49,449.15,0.03,1608063.41,99.97,22,C,322.74,1347.44,2,1,214.25,0.0,59.7
+CMP-114,Secondary Packaging Grade-114 (SEC),Zenith Chemical,7,3.43,86.52,296.76,0.02,1608360.17,99.99,23,C,182.47,296.76,1,1,95.95,0.0,47.3
+CMP-060,Secondary Packaging Grade-60 (SEC),Valence Reagents,90,1.52,145.46,221.1,0.01,1608581.27,100.0,24,C,292.34,221.1,1,1,146.88,811.94,45.2

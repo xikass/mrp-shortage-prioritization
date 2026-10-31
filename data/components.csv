@@ -1,0 +1,121 @@
+component_id,name,supplier,lead_time_days,unit_cost,moq
+CMP-001,Active Ingredient Grade-01 (API),Apex BioChem,45,154.64,100
+CMP-002,Functional Excipient Grade-02 (EXC),Nordic Excipients,75,21.64,50
+CMP-003,Solvent / Vehicle Grade-03 (SOL),Solvanta Pharma,90,29.34,50
+CMP-004,Preservative / Buffer Grade-04 (PRV),Vitasource Ingredients,75,63.35,100
+CMP-005,Primary Packaging Grade-05 (PKG),Boreal Botanicals,21,2.36,500
+CMP-006,Secondary Packaging Grade-06 (SEC),Zenith Chemical,90,5.41,2500
+CMP-007,Active Ingredient Grade-07 (API),Aegis Polymers,60,405.77,25
+CMP-008,Functional Excipient Grade-08 (EXC),Crestview Labs,45,15.35,50
+CMP-009,Solvent / Vehicle Grade-09 (SOL),Helios Fine Chemicals,60,20.98,500
+CMP-010,Preservative / Buffer Grade-10 (PRV),Kestrel Supply,30,48.32,50
+CMP-011,Primary Packaging Grade-11 (PKG),Oceanic Extracts,21,3.3,2500
+CMP-012,Secondary Packaging Grade-12 (SEC),Valence Reagents,30,3.54,1000
+CMP-013,Active Ingredient Grade-13 (API),Apex BioChem,7,180.69,50
+CMP-014,Functional Excipient Grade-14 (EXC),Nordic Excipients,60,5.02,50
+CMP-015,Solvent / Vehicle Grade-15 (SOL),Solvanta Pharma,7,15.67,100
+CMP-016,Preservative / Buffer Grade-16 (PRV),Vitasource Ingredients,90,57.73,50
+CMP-017,Primary Packaging Grade-17 (PKG),Boreal Botanicals,45,6.13,1000
+CMP-018,Secondary Packaging Grade-18 (SEC),Zenith Chemical,30,2.68,2500
+CMP-019,Active Ingredient Grade-19 (API),Aegis Polymers,60,160.94,100
+CMP-020,Functional Excipient Grade-20 (EXC),Crestview Labs,7,19.13,100
+CMP-021,Solvent / Vehicle Grade-21 (SOL),Helios Fine Chemicals,7,13.89,500
+CMP-022,Preservative / Buffer Grade-22 (PRV),Kestrel Supply,60,70.7,100
+CMP-023,Primary Packaging Grade-23 (PKG),Oceanic Extracts,7,1.94,5000
+CMP-024,Secondary Packaging Grade-24 (SEC),Valence Reagents,7,2.85,1000
+CMP-025,Active Ingredient Grade-25 (API),Apex BioChem,14,232.08,50
+CMP-026,Functional Excipient Grade-26 (EXC),Nordic Excipients,45,17.08,50
+CMP-027,Solvent / Vehicle Grade-27 (SOL),Solvanta Pharma,21,28.82,50
+CMP-028,Preservative / Buffer Grade-28 (PRV),Vitasource Ingredients,30,50.82,50
+CMP-029,Primary Packaging Grade-29 (PKG),Boreal Botanicals,90,5.36,2500
+CMP-030,Secondary Packaging Grade-30 (SEC),Zenith Chemical,21,3.65,500
+CMP-031,Active Ingredient Grade-31 (API),Aegis Polymers,75,377.16,10
+CMP-032,Functional Excipient Grade-32 (EXC),Crestview Labs,30,39.42,100
+CMP-033,Solvent / Vehicle Grade-33 (SOL),Helios Fine Chemicals,21,33.58,500
+CMP-034,Preservative / Buffer Grade-34 (PRV),Kestrel Supply,7,27.06,100
+CMP-035,Primary Packaging Grade-35 (PKG),Oceanic Extracts,60,6.16,2500
+CMP-036,Secondary Packaging Grade-36 (SEC),Valence Reagents,30,3.31,5000
+CMP-037,Active Ingredient Grade-37 (API),Apex BioChem,21,343.13,50
+CMP-038,Functional Excipient Grade-38 (EXC),Nordic Excipients,21,17.2,250
+CMP-039,Solvent / Vehicle Grade-39 (SOL),Solvanta Pharma,30,37.92,500
+CMP-040,Preservative / Buffer Grade-40 (PRV),Vitasource Ingredients,90,56.42,25
+CMP-041,Primary Packaging Grade-41 (PKG),Boreal Botanicals,21,3.43,500
+CMP-042,Secondary Packaging Grade-42 (SEC),Zenith Chemical,14,7.92,1000
+CMP-043,Active Ingredient Grade-43 (API),Aegis Polymers,14,175.44,100
+CMP-044,Functional Excipient Grade-44 (EXC),Crestview Labs,90,33.6,50
+CMP-045,Solvent / Vehicle Grade-45 (SOL),Helios Fine Chemicals,30,23.54,100
+CMP-046,Preservative / Buffer Grade-46 (PRV),Kestrel Supply,7,22.45,25
+CMP-047,Primary Packaging Grade-47 (PKG),Oceanic Extracts,45,7.6,2500
+CMP-048,Secondary Packaging Grade-48 (SEC),Valence Reagents,7,2.95,2500
+CMP-049,Active Ingredient Grade-49 (API),Apex BioChem,90,393.26,100
+CMP-050,Functional Excipient Grade-50 (EXC),Nordic Excipients,90,19.16,50
+CMP-051,Solvent / Vehicle Grade-51 (SOL),Solvanta Pharma,90,34.78,50
+CMP-052,Preservative / Buffer Grade-52 (PRV),Vitasource Ingredients,90,77.83,50
+CMP-053,Primary Packaging Grade-53 (PKG),Boreal Botanicals,21,3.67,500
+CMP-054,Secondary Packaging Grade-54 (SEC),Zenith Chemical,21,8.3,1000
+CMP-055,Active Ingredient Grade-55 (API),Aegis Polymers,90,192.98,25
+CMP-056,Functional Excipient Grade-56 (EXC),Crestview Labs,60,20.69,50
+CMP-057,Solvent / Vehicle Grade-57 (SOL),Helios Fine Chemicals,7,11.16,500
+CMP-058,Preservative / Buffer Grade-58 (PRV),Kestrel Supply,7,54.51,100
+CMP-059,Primary Packaging Grade-59 (PKG),Oceanic Extracts,21,5.86,500
+CMP-060,Secondary Packaging Grade-60 (SEC),Valence Reagents,90,1.52,2500
+CMP-061,Active Ingredient Grade-61 (API),Apex BioChem,60,178.12,25
+CMP-062,Functional Excipient Grade-62 (EXC),Nordic Excipients,60,39.06,50
+CMP-063,Solvent / Vehicle Grade-63 (SOL),Solvanta Pharma,21,36.22,250
+CMP-064,Preservative / Buffer Grade-64 (PRV),Vitasource Ingredients,21,78.58,50
+CMP-065,Primary Packaging Grade-65 (PKG),Boreal Botanicals,7,5.24,5000
+CMP-066,Secondary Packaging Grade-66 (SEC),Zenith Chemical,7,2.3,500
+CMP-067,Active Ingredient Grade-67 (API),Aegis Polymers,90,183.89,50
+CMP-068,Functional Excipient Grade-68 (EXC),Crestview Labs,90,27.59,50
+CMP-069,Solvent / Vehicle Grade-69 (SOL),Helios Fine Chemicals,30,37.92,50
+CMP-070,Preservative / Buffer Grade-70 (PRV),Kestrel Supply,60,88.19,100
+CMP-071,Primary Packaging Grade-71 (PKG),Oceanic Extracts,30,0.92,5000
+CMP-072,Secondary Packaging Grade-72 (SEC),Valence Reagents,45,4.1,500
+CMP-073,Active Ingredient Grade-73 (API),Apex BioChem,75,436.54,10
+CMP-074,Functional Excipient Grade-74 (EXC),Nordic Excipients,30,15.31,50
+CMP-075,Solvent / Vehicle Grade-75 (SOL),Solvanta Pharma,90,34.79,500
+CMP-076,Preservative / Buffer Grade-76 (PRV),Vitasource Ingredients,21,28.56,25
+CMP-077,Primary Packaging Grade-77 (PKG),Boreal Botanicals,14,8.01,1000
+CMP-078,Secondary Packaging Grade-78 (SEC),Zenith Chemical,21,5.19,5000
+CMP-079,Active Ingredient Grade-79 (API),Aegis Polymers,14,307.55,25
+CMP-080,Functional Excipient Grade-80 (EXC),Crestview Labs,75,9.9,250
+CMP-081,Solvent / Vehicle Grade-81 (SOL),Helios Fine Chemicals,14,35.71,50
+CMP-082,Preservative / Buffer Grade-82 (PRV),Kestrel Supply,90,70.76,100
+CMP-083,Primary Packaging Grade-83 (PKG),Oceanic Extracts,60,3.57,500
+CMP-084,Secondary Packaging Grade-84 (SEC),Valence Reagents,14,7.03,2500
+CMP-085,Active Ingredient Grade-85 (API),Apex BioChem,14,400.82,10
+CMP-086,Functional Excipient Grade-86 (EXC),Nordic Excipients,30,22.9,50
+CMP-087,Solvent / Vehicle Grade-87 (SOL),Solvanta Pharma,30,32.94,50
+CMP-088,Preservative / Buffer Grade-88 (PRV),Vitasource Ingredients,90,71.16,50
+CMP-089,Primary Packaging Grade-89 (PKG),Boreal Botanicals,30,7.63,2500
+CMP-090,Secondary Packaging Grade-90 (SEC),Zenith Chemical,30,5.26,5000
+CMP-091,Active Ingredient Grade-91 (API),Aegis Polymers,75,328.65,50
+CMP-092,Functional Excipient Grade-92 (EXC),Crestview Labs,7,10.43,100
+CMP-093,Solvent / Vehicle Grade-93 (SOL),Helios Fine Chemicals,45,34.36,100
+CMP-094,Preservative / Buffer Grade-94 (PRV),Kestrel Supply,60,35.02,50
+CMP-095,Primary Packaging Grade-95 (PKG),Oceanic Extracts,60,3.14,2500
+CMP-096,Secondary Packaging Grade-96 (SEC),Valence Reagents,30,3.32,5000
+CMP-097,Active Ingredient Grade-97 (API),Apex BioChem,45,180.47,100
+CMP-098,Functional Excipient Grade-98 (EXC),Nordic Excipients,45,21.0,100
+CMP-099,Solvent / Vehicle Grade-99 (SOL),Solvanta Pharma,45,11.8,100
+CMP-100,Preservative / Buffer Grade-100 (PRV),Vitasource Ingredients,75,70.96,25
+CMP-101,Primary Packaging Grade-101 (PKG),Boreal Botanicals,14,4.78,1000
+CMP-102,Secondary Packaging Grade-102 (SEC),Zenith Chemical,21,6.92,2500
+CMP-103,Active Ingredient Grade-103 (API),Aegis Polymers,21,242.42,50
+CMP-104,Functional Excipient Grade-104 (EXC),Crestview Labs,14,5.89,50
+CMP-105,Solvent / Vehicle Grade-105 (SOL),Helios Fine Chemicals,60,34.26,50
+CMP-106,Preservative / Buffer Grade-106 (PRV),Kestrel Supply,30,47.72,50
+CMP-107,Primary Packaging Grade-107 (PKG),Oceanic Extracts,14,2.0,1000
+CMP-108,Secondary Packaging Grade-108 (SEC),Valence Reagents,90,5.03,5000
+CMP-109,Active Ingredient Grade-109 (API),Apex BioChem,7,324.27,10
+CMP-110,Functional Excipient Grade-110 (EXC),Nordic Excipients,7,38.42,250
+CMP-111,Solvent / Vehicle Grade-111 (SOL),Solvanta Pharma,90,24.4,100
+CMP-112,Preservative / Buffer Grade-112 (PRV),Vitasource Ingredients,45,48.57,50
+CMP-113,Primary Packaging Grade-113 (PKG),Boreal Botanicals,90,2.02,1000
+CMP-114,Secondary Packaging Grade-114 (SEC),Zenith Chemical,7,3.43,5000
+CMP-115,Active Ingredient Grade-115 (API),Aegis Polymers,45,114.84,25
+CMP-116,Functional Excipient Grade-116 (EXC),Crestview Labs,60,39.28,50
+CMP-117,Solvent / Vehicle Grade-117 (SOL),Helios Fine Chemicals,30,5.6,100
+CMP-118,Preservative / Buffer Grade-118 (PRV),Kestrel Supply,90,79.55,25
+CMP-119,Primary Packaging Grade-119 (PKG),Oceanic Extracts,60,4.14,2500
+CMP-120,Secondary Packaging Grade-120 (SEC),Valence Reagents,14,5.54,500
