@@ -1,5 +1,10 @@
 # MRP Shortage Prioritization & Shortage Risk Index (SRI)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-brightgreen.svg)](https://www.python.org/)
+[![SQLite](https://img.shields.io/badge/Database-SQLite-003B57.svg)](https://www.sqlite.org/)
+[![Domain: Supply Chain](https://img.shields.io/badge/Domain-Supply%20Chain-6f42c1.svg)](#)
+
 A decision-grade supply chain analytics framework and statistical prioritization model for multi-sector pharmaceutical manufacturing, implemented in SQL (SQLite) and Python (pandas/NumPy/SciPy).
 
 ---
