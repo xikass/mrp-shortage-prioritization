@@ -2,7 +2,7 @@
 tests/selfcheck.py
 Automated validation and integrity test suite for MRP Shortage Prioritization.
 Asserts data dimensions, algorithmic sanity, dirty-data audit detections,
-output file sizes, and DoE statistical bounds.
+and output file sizes.
 Exits 0 on success, non-zero on failure.
 """
 
@@ -16,7 +16,6 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 OUT_DIR = os.path.join(BASE_DIR, "out")
 CHARTS_DIR = os.path.join(BASE_DIR, "charts")
-DOE_DIR = os.path.join(BASE_DIR, "doe")
 DB_PATH = os.path.join(DATA_DIR, "mrp.db")
 
 
@@ -75,21 +74,19 @@ def run_checks():
         assert detected_issues[issue] > 0, f"Issue {issue} count must be > 0, got {detected_issues[issue]}"
     print(f"  [PASS] All 6 dirty data classes successfully detected with count > 0.")
 
-    # 5. All 6 Charts Exist and > 10KB
+    # 5. All 4 Charts Exist and > 10KB
     expected_charts = [
         "01_pareto.png",
         "02_heatmap.png",
         "03_lead_time_vs_shortage.png",
-        "04_supplier_exposure.png",
-        "05_doe_main_effects.png",
-        "06_doe_interaction.png"
+        "04_supplier_exposure.png"
     ]
     for ch in expected_charts:
         ch_path = os.path.join(CHARTS_DIR, ch)
         assert os.path.exists(ch_path), f"Missing chart: {ch_path}"
         size_kb = os.path.getsize(ch_path) / 1024.0
         assert size_kb > 10.0, f"Chart {ch} too small: {size_kb:.1f} KB <= 10 KB"
-    print(f"  [PASS] All 6 decision-grade charts exist and exceed 10 KB threshold.")
+    print(f"  [PASS] All 4 decision-grade charts exist and exceed 10 KB threshold.")
 
     # 6. results.json Has Required Keys
     results_path = os.path.join(OUT_DIR, "results.json")
@@ -112,25 +109,6 @@ def run_checks():
     assert "summary" in results["sensitivity_metrics"], "Missing summary in sensitivity_metrics"
     assert "scenarios" in results["sensitivity_metrics"], "Missing scenarios in sensitivity_metrics"
     print("  [PASS] results.json schema and required metrics validated.")
-
-    # 7. ANOVA R² in [0, 1] and all p-values in [0, 1]
-    anova_path = os.path.join(DOE_DIR, "anova_results.json")
-    assert os.path.exists(anova_path), f"Missing {anova_path}"
-    with open(anova_path, "r") as f:
-        anova_res = json.load(f)
-
-    r2 = anova_res["model_summary"]["r_squared"]
-    adj_r2 = anova_res["model_summary"]["adjusted_r_squared"]
-    model_p = anova_res["model_summary"]["p_value"]
-
-    assert 0.0 <= r2 <= 1.0, f"Invalid R²: {r2}"
-    assert 0.0 <= adj_r2 <= 1.0, f"Invalid Adj R²: {adj_r2}"
-    assert 0.0 <= model_p <= 1.0, f"Invalid model p-value: {model_p}"
-
-    for row in anova_res["anova_table"]:
-        p_val = row["p_value"]
-        assert 0.0 <= p_val <= 1.0, f"Invalid term p-value for {row['term']}: {p_val}"
-    print(f"  [PASS] DoE ANOVA R² ({r2:.4f}) and all p-values in [0, 1].")
 
     print("\nALL VERIFICATION CHECKS PASSED (100%).")
 

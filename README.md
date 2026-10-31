@@ -181,23 +181,10 @@ Horizontal bar chart summarizing net shortage dollar risk by vendor, highlightin
 
 ---
 
-## Appendix: Formulation Design of Experiments (DoE) & ANOVA
-
-Located in `doe/`: A rigorous $2^3$ full factorial experiment with 3 center points ($N = 11$ runs) optimizing solid dosage tablet hardness across Binder %, Compression Force, and Lubrication Time.
-
-* Implemented via **pure NumPy OLS regression** and `scipy.stats.f` (zero third-party regression dependencies).
-* **Model Statistics:** $R^2 = 0.9987$, $\text{Adjusted } R^2 = 0.9968$, $F = 519.82$ ($p < 0.0001$).
-* **Statistical Finding:** Compression Force ($p < 0.0001$) and Binder Concentration ($p < 0.0001$) are significant drivers, with a powerful synergistic interaction ($A \times B, p < 0.0001$). Lubrication blending time exhibits a significant softening effect ($-15.26\text{ N}$ total drop, $p < 0.0001$) due to hydrophobic particle coating.
-
-![DoE Main Effects](charts/05_doe_main_effects.png)
-![DoE Interaction](charts/06_doe_interaction.png)
-
----
-
 ## Reproducibility & Workflow
 
 ### Quickstart with Makefile
-The entire analysis, pipeline, database generation, charts, DoE, and test suite run via a single command:
+The entire analysis, pipeline, database generation, charts, and test suite run via a single command:
 
 ```bash
 # Clone the repository
@@ -212,7 +199,6 @@ Individual Makefile targets:
 * `make data`: Generates SQLite database `data/mrp.db` and CSV files (seed=42).
 * `make analysis`: Runs data audit, time-phased MRP explosion, SRI calculation, and exports results.
 * `make charts`: Generates all decision-grade matplotlib visualizations (`charts/`).
-* `make doe`: Runs DoE data synthesis, NumPy OLS ANOVA, and response plots (`doe/`).
 * `make test`: Executes `tests/selfcheck.py` validating data integrity, Pareto totals, dirty-data detection, and model bounds.
 
 ---
